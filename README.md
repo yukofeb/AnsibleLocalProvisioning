@@ -32,7 +32,7 @@ $ brew install git
 Clone github repository  
 
 ```
-$ clone git@github.com:yukofeb/AnsibleLocalProvisioning.git
+$ git clone git@github.com:yukofeb/AnsibleLocalProvisioning.git
 $ cd AnsibleLocalProvisioning
 ```
 
