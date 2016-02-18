@@ -31,11 +31,11 @@
       - { name: google-japanese-ime }
       - { name: 1password }
       - { name: dropbox }
-      - { name: omnifocus }
       - { name: evernote }
       - { name: iterm2 }
       - { name: macid }
       - { name: virusbuster }
+      - { name: dash }
 #      - { name: kobito }
   tasks:
     - name: tap homebrew
