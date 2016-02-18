@@ -7,6 +7,7 @@
       - homebrew/binary
       - homebrew/dupes
       - caskroom/cask
+      - yukofeb/mycask
     homebrew_packages:
       - { name: vim }
       - { name: openssl }
@@ -33,6 +34,8 @@
       - { name: omnifocus }
       - { name: evernote }
       - { name: iterm2 }
+      - { name: macid }
+      - { name: virusbuster }
 #      - { name: kobito }
   tasks:
     - name: tap homebrew
