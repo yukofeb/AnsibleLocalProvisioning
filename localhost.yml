@@ -26,16 +26,16 @@
       - { name: adobe-reader }
       - { name: alfred }
       - { name: skype }
-      - { name: slack }
       - { name: virtualbox }
       - { name: google-japanese-ime }
       - { name: 1password }
       - { name: dropbox }
-      - { name: evernote }
       - { name: iterm2 }
       - { name: macid }
       - { name: virusbuster }
       - { name: dash }
+      - { name: cocoapods }
+      - { name: atom }
 #      - { name: kobito }
   tasks:
     - name: tap homebrew
