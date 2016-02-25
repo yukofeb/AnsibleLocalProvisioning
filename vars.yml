@@ -1,0 +1,37 @@
+homebrew_taps:
+  - homebrew/binary
+  - homebrew/dupes
+  - caskroom/cask
+  - yukofeb/mycask
+homebrew_packages:
+  - { name: vim }
+  - { name: openssl }
+  - { name: tree }
+  - { name: python }
+  - { name: ansible }
+  - { name: git }
+  - { name: wget }
+  - { name: curl }
+  - { name: rbenv }
+  - { name: readline }
+  - { name: tmux }
+  - { name: node }
+homebrew_cask_packages:
+  - { name: google-chrome }
+  - { name: adobe-reader }
+  - { name: alfred }
+  - { name: skype }
+  - { name: virtualbox }
+  - { name: google-japanese-ime }
+  - { name: 1password }
+  - { name: dropbox }
+  - { name: iterm2 }
+  - { name: macid }
+  - { name: virusbuster }
+  - { name: dash }
+  - { name: cocoapods }
+  - { name: atom }
+#  - { name: kobito }
+files:
+  - { name: .vimrc }
+  #- { name: .bashrc }

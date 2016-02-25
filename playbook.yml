@@ -1,0 +1,10 @@
+- hosts: localhost
+  connection: local
+  gather_facts: no           
+  become: no
+  tasks:
+    - include_vars: vars.yml
+    - include: playbooks/files.yml
+    - include: playbooks/secret_files.yml
+    - include: playbooks/brew.yml
+    - include: playbooks/brew-cask.yml

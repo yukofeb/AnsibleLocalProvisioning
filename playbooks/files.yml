@@ -1,0 +1,3 @@
+    - name: locate files
+      copy: src=./files/{{ item.name }} dest=~/ mode=655
+      with_items: files
