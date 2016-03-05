@@ -16,6 +16,8 @@ homebrew_packages:
   - { name: readline }
   - { name: tmux }
   - { name: node }
+  - { name: python }
+  - { name: python3 }
 homebrew_cask_packages:
   - { name: google-chrome }
   - { name: adobe-reader }
@@ -31,7 +33,9 @@ homebrew_cask_packages:
   - { name: dash }
   - { name: cocoapods }
   - { name: atom }
+  - { name: pycharm }
+  - { name: dockertoolbox }
 #  - { name: kobito }
 files:
   - { name: .vimrc }
-  #- { name: .bashrc }
+  - { name: .bash_profile }
