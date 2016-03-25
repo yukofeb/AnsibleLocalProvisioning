@@ -19,6 +19,7 @@ homebrew_packages:
   - { name: python }
   - { name: python3 }
   - { name: awscli }
+  - { name: jq }
 homebrew_cask_packages:
   - { name: google-chrome }
   - { name: adobe-reader }
