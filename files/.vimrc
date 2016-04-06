@@ -1,5 +1,4 @@
 set number
-set list
 set clipboard+=unnamed
 
 nnoremap <silent><C-t> :NERDTreeToggle<CR>
