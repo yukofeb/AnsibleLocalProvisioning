@@ -37,6 +37,7 @@ homebrew_cask_packages:
   - { name: atom }
   - { name: pycharm }
   - { name: dockertoolbox }
+  - { name: gyazo }
 #  - { name: kobito }
 files:
   - { name: .vimrc }
