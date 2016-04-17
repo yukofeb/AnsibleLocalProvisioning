@@ -38,6 +38,7 @@ homebrew_cask_packages:
   - { name: pycharm }
   - { name: dockertoolbox }
   - { name: gyazo }
+  - { name: heroku-toolbelt }
 #  - { name: kobito }
 files:
   - { name: .vimrc }
