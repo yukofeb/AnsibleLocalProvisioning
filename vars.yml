@@ -20,6 +20,7 @@ homebrew_packages:
   - { name: python3 }
   - { name: awscli }
   - { name: jq }
+  - { name: heroku-toolbelt }
 homebrew_cask_packages:
   - { name: google-chrome }
   - { name: adobe-reader }
@@ -30,7 +31,6 @@ homebrew_cask_packages:
   - { name: 1password }
   - { name: dropbox }
   - { name: iterm2 }
-  - { name: macid }
   - { name: virusbuster }
   - { name: dash }
   - { name: cocoapods }
@@ -38,7 +38,7 @@ homebrew_cask_packages:
   - { name: pycharm }
   - { name: dockertoolbox }
   - { name: gyazo }
-  - { name: heroku-toolbelt }
+  - { name: near-lock }
 #  - { name: kobito }
 files:
   - { name: .vimrc }
