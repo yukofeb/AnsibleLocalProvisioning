@@ -1,5 +1,6 @@
 set number
 set clipboard+=unnamed
+syntax on
 
 nnoremap <silent><C-t> :NERDTreeToggle<CR>
 nnoremap <silent><C-i> :tabnext<CR>
@@ -33,6 +34,7 @@ NeoBundle 'tpope/vim-rails'
 NeoBundle 'scrooloose/nerdtree'
 NeoBundle 'davidhalter/jedi-vim'
 NeoBundle 'tell-k/vim-autopep8'
+NeoBundle 'fatih/vim-go'
 
 call neobundle#end()
 
@@ -69,5 +71,14 @@ function! Autopep8()
     call Preserve(':silent %!autopep8 -')
 endfunction
 
-" Execute Shift + F
+"' Execute Shift + F
 autocmd FileType python nnoremap <S-f> :call Autopep8()<CR>
+
+"" [[vim-go]]
+let g:go_highlight_functions = 1
+let g:go_highlight_methods = 1
+let g:go_highlight_structs = 1
+let g:go_highlight_operators = 1
+let g:go_highlight_build_constraints = 1
+let g:go_fmt_fail_silently = 1
+let g:go_fmt_autosave = 0

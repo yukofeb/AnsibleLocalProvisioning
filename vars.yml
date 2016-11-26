@@ -7,38 +7,37 @@ homebrew_packages:
   - { name: vim }
   - { name: openssl }
   - { name: tree }
-  - { name: python }
   - { name: ansible }
   - { name: git }
   - { name: wget }
   - { name: curl }
-  - { name: rbenv }
+#  - { name: rbenv }
   - { name: readline }
   - { name: tmux }
   - { name: node }
-  - { name: python }
-  - { name: python3 }
+#  - { name: python }
+#  - { name: python3 }
   - { name: awscli }
   - { name: jq }
   - { name: heroku-toolbelt }
 homebrew_cask_packages:
-  - { name: google-chrome }
+#  - { name: google-chrome }
   - { name: adobe-reader }
   - { name: alfred }
   - { name: skype }
-  - { name: virtualbox }
+#  - { name: virtualbox }
   - { name: google-japanese-ime }
-  - { name: 1password }
+#  - { name: 1password }
   - { name: dropbox }
   - { name: iterm2 }
   - { name: virusbuster }
   - { name: dash }
   - { name: cocoapods }
-  - { name: atom }
+#  - { name: atom }
   - { name: pycharm }
-  - { name: dockertoolbox }
-  - { name: gyazo }
-  - { name: near-lock }
+#  - { name: dockertoolbox }
+#  - { name: gyazo }
+#  - { name: near-lock }
 #  - { name: kobito }
 files:
   - { name: .vimrc }
