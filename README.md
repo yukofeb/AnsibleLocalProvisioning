@@ -39,7 +39,7 @@ $ cd AnsibleLocalProvisioning
 Execute ansible  
 
 ```
-$ HOMEBREW_CASK_OPTS="--appdir=/Applications" ansible-playbook -i hosts -vv localhost.yml
+$ HOMEBREW_CASK_OPTS="--appdir=/Applications" ansible-playbook -i hosts -vv playbook.yml
 ```
 
 ## How to edit files
